@@ -1,0 +1,64 @@
+html {
+  font-size: 10px;
+  background: url('./background.jpg') bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(242, 12, 12);
+  background: rgba(85, 180, 137, 0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #33a6f3;
+  box-shadow: 0 0 1rem #f019c9;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #10ea63;
+}
+
+#heading{
+
+    font-size: 6rem; /* Doubled the font size */
+    text-align: center;
+    color: #0b8f3e;
+    text-shadow: 0 0 .5rem rgb(5, 53, 242);
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+   /* height: 50vh; /* Set the height to the full viewport height */
+
+}
